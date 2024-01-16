@@ -23,7 +23,7 @@ h1{
   font-size: 50px;
 }
 
-/* main first section */
+/* nav*/
 
 #back{
   max-width: 1000px;
@@ -39,23 +39,37 @@ nav{
 
 button{
   text-align: center;
-  font-size: 2.2em;
+  font-size: 2em;
   border-radius: 10px 10px;
   line-height: 65px;
+  padding: 5px 20px;
 }
 
 #task{
   background-color: rgba(71,173,241,255);
   border: none;
-  padding: auto;
 }
 
-#section{
+#add-section{
   background-color: white;
   color: gray;
   border: grey solid;
   margin-left: 3px;
 }
+
+/* section task list */
+
+.task-list{
+  margin-top: 10px;
+  border-radius: 0 0 10px 10px;
+  background-color: white;
+}
+
+li{
+  list-style: none;
+}
+
+
 
 
 
