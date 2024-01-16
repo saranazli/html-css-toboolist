@@ -19,7 +19,7 @@ body{
 
 h1{
   display: inline-block;
-  font-size: 50px;
+  font-size: 30px;
 }
 
 /* set nav e main*/
@@ -41,7 +41,7 @@ nav{
 
 button{
   text-align: center;
-  font-size: 2em;
+  font-size: 1em;
   border-radius: 10px 10px;
   line-height: 65px;
   padding: 5px 20px;
@@ -96,6 +96,12 @@ li {
 
 .red{
   color: red;
+}
+
+/* info word */
+
+.info-word{
+  font size: 2em;
 }
 
 
