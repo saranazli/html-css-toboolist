@@ -6,4 +6,34 @@
   padding: 0;
 }
 
+/* set principale */
+
+body{
+  background-color: rgba(246,248,249,255);
+}
+
+/* intestazione */
+
+.intestazione{
+  background-color: white;
+}
+
+h1{
+  display: inline-block;
+  font-size: 50px;
+}
+
+/* main first section */
+
+#back{
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+
+
+
+
+
+
 
