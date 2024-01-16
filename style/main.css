@@ -13,8 +13,6 @@ body{
   background-color: rgba(246,248,249,255);
 }
 
-/* intestazione */
-
 .intestazione{
   background-color: white;
 }
@@ -24,21 +22,16 @@ h1{
   font-size: 50px;
 }
 
-/* nav*/
+/* set nav e main*/
 
-nav, .back{
-  padding-left: 55px;
+.back{
   max-width: 2000px;
   margin: 0 auto;
-}
-
-main, .back{
-  margin-top: 10px;
-  border-radius: 0 0 10px 10px;
-  background-color: white;
   padding: 40px 25px;
+  background-color: white;
 }
 
+/*nav*/
 
 nav{
   background-color: white;
@@ -66,19 +59,46 @@ button{
   margin-left: 3px;
 }
 
-.arrow{
-  font-size: 1em;
-}
+/*main*/
 
-/* section task list */
+main{
+  margin-top: 10px;
+  border-radius: 0 0 10px 10px;
+}
 
 li{
   list-style: none;
 }
 
-ul{
-  margin: 10px 10px;
+/* section task list */
+.arrow{
+  font-size: .5em;
 }
+
+li h1{
+  font-size: 2em;
+}
+
+ul{
+  margin-top: 30px;
+}
+
+li {
+  font-size: 30px;
+  margin-top: 40px;
+}
+
+.check-no{
+  color: green;
+  border: solid;
+  border-radius: 50%;
+}
+
+.red{
+  color: red;
+}
+
+
 
 
 
