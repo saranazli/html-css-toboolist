@@ -84,8 +84,8 @@ ul{
 }
 
 li {
-  font-size: 30px;
-  margin-top: 40px;
+  font-size: 25px;
+  margin-top: 15px;
 }
 
 .check-no{
@@ -98,13 +98,10 @@ li {
   color: red;
 }
 
-/* info word */
+/* info words */
 
 .info-word{
-  font size: 2em;
-}
-
-.info-word{
+  font-size: .5em;
   border-radius: 10px 10px;
   padding: 5px 20px;
 }
