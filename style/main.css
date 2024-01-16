@@ -4,6 +4,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /* set principale */
@@ -25,13 +26,21 @@ h1{
 
 /* nav*/
 
-#back{
-  max-width: 1000px;
+nav, .back{
+  padding-left: 55px;
+  max-width: 2000px;
   margin: 0 auto;
 }
 
+main, .back{
+  margin-top: 10px;
+  border-radius: 0 0 10px 10px;
+  background-color: white;
+  padding: 40px 25px;
+}
+
+
 nav{
-  padding-left: 30px;
   background-color: white;
   border-radius: 10px 10px 0 0;
   width: 100%;
@@ -57,16 +66,18 @@ button{
   margin-left: 3px;
 }
 
-/* section task list */
-
-.task-list{
-  margin-top: 10px;
-  border-radius: 0 0 10px 10px;
-  background-color: white;
+.arrow{
+  font-size: 1em;
 }
+
+/* section task list */
 
 li{
   list-style: none;
+}
+
+ul{
+  margin: 10px 10px;
 }
 
 
